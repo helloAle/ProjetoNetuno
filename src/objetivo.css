@@ -1,0 +1,17 @@
+.objetivo{
+    margin-top: 4%;
+    text-align: center;
+    margin-bottom: 8%;
+    
+}
+
+.objetivo h1{
+    font-size: 30px;
+    padding-bottom: 2rem;
+}
+.obj{
+    left: 200px;
+  }
+  .obj li{
+    display: inline-block;
+  }

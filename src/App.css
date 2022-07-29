@@ -1,0 +1,12 @@
+/* #root {
+} */
+
+li {
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s;
+}

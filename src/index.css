@@ -1,0 +1,72 @@
+:root {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1A7FBD;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.rodape{
+  padding: 6% 12%;
+  margin-top: 100px;
+  background-color: #000000;
+  color: #fff;
+}
+
+.conteudo_esq{
+  margin-right: 0;
+}
+
+.logo_slogan{
+  height: 50px;
+}
+.direitos{
+  font-size: 8px;
+  color: #B9B9B9;
+}
+.redes img{
+  height: 25px;
+  padding: 1rem 1rem 0;
+}
+.rodape li{
+  padding: 5px;
+}
+
+.processo_seletivo{
+  position: absolute;
+  margin-left: 350px;
+  margin-top: -110px;
+
+  padding: 0.7rem;
+  border-radius: 5px;
+
+  background-color: #fff;
+  color: #000;
+
+  transition: all 0.5s;
+}
+.processo_seletivo:hover{
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: all 0.5s;
+}
+
+.conteudo{ 
+  margin-top: -110px;
+  margin-left: 0;
+  float: right;
+}
+.itens{
+  padding: 0 1rem 1rem 0;
+  float: left;
+}
+.contato{
+  float: right;
+}

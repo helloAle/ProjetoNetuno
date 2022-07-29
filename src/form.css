@@ -1,0 +1,185 @@
+  .principal a{
+    text-align: center;
+    color:#1A7FBD;
+  }
+  
+  .principal h6{
+    font-size: 10px;
+    padding: 0.5rem 5rem;
+  }
+  
+  .principal{
+    display: inline-block;
+    position: relative;
+  }
+  
+    .caixa{
+      transition: all 0.5s;
+
+      padding: 1.5rem 21% 3%;
+      display: inline-block;
+    }
+
+    .caixa li:hover{
+      transition: all 0.5s;
+    }
+  
+  .netuno{
+    float: left;
+    height: 30px;
+    display: block;
+    margin-left: -100px;
+    margin-right: 35px;
+  }
+
+    .botao-processo{
+      position: relative;
+      float: right;
+      margin-top: -65px;
+      margin-left: 550px;
+      padding: 0.9rem 1.3rem;
+
+      background-color: #000;
+      border-radius: 5px;
+      font-size: 14px;
+
+      transition: all 0.5s;
+    }
+
+    .botao-processo:hover{
+      transition: all 0.5s;
+      padding: 1rem 1.4rem;
+      font-size: 15px;
+    }
+  
+  nav li{
+    color: #fff;
+    display: inline-block;
+    padding: 1rem;
+  }
+  
+  .banner{
+    float: left;
+    height: 1050px;
+    margin-top: -6%;
+    margin-left: -17%;
+  }
+  
+  .formulario{
+    left: 300px;
+    position: absolute;
+    margin: 7% 35%;
+    border-radius: 15px;
+    background-color: #fff;
+  }
+  
+  .formulario h3{
+    padding: 1rem;
+    text-align: left;
+    color: #CECECE;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  .formulario h5{
+    padding: 0 1.5rem;
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  
+  .info{
+    margin-left: 1rem;
+    padding: 0.5rem 3rem;
+    background: #FBFBFB;
+    border: 1px solid #CECECE;
+    border-radius: 6px;
+  }
+  .input_box li{
+    margin: 10px;
+  }
+  .input_box img{
+    position: absolute;
+    margin-top: 10px; 
+    left: 40px;
+  }
+
+  .icone{
+    height: 15px;
+  }
+  .icone-mail{
+    height: 13px;
+  }
+  
+  .title{
+    text-align: left;
+    padding: 0.5rem;
+    color: #aaa;
+  }
+  .title h5{
+    padding: 0.5rem;
+    color:#1A7FBD;
+  }
+  .problema{
+    background-color: #fff;
+    color: #000;
+  }
+  .conhecimentos{
+    background-color: #1A7FBD;
+  }
+  
+  .conhecimentos h5{
+    padding: 0.5rem;
+  }
+  .grupo1 li{
+    padding: 0.5rem 0.1rem;
+    font-size: 12px;
+    margin-left: 15px;
+    display: inline-block;
+  }
+  
+  .conhecimentos input{
+    position: relative;
+  }
+  
+  h5{
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  
+  .trabalho{
+    margin: 0.5rem 0;
+    color: #1A7FBD;
+  }
+  
+  .opcao{
+    margin: 0.5rem 5%;
+    transition: all 0.5s;
+  }
+
+  .line{
+    color: #ddd;
+    padding: 0 0 10px 0;
+  }
+  .campos{
+    margin: 0 10%;
+    color: #1A7FBD;
+  }
+  .enviar{
+    margin: 0 10%;
+    color: #fff;
+    background-color: #1A7FBD;
+    border: none;
+    border-radius: 3px;
+    padding: 1rem 8rem;
+  }
+  .politica{
+    color: #aaa;
+  }

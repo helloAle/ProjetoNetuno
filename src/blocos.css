@@ -1,0 +1,81 @@
+/* .prob{
+  
+} */
+.projeto{
+    padding: 9% 17%;
+  }
+  
+  .projeto img{
+    float: left;
+    height: 450px;
+    margin-top: -20%;
+    margin-left: -80px;
+    margin-right: 80px;
+  }
+  .projeto h2{
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 1.5rem;
+
+    color: #A4DCFF;
+  }
+  .projeto p{
+    text-align: left;
+  }
+
+  .problema{
+    position: absolute;
+    padding: 19%;
+    display: inline-block;
+  }
+  
+  .problema img{
+    float: left;
+    height: 720px;
+    margin-top: -30%;
+    margin-left: -80px;
+    margin-right: 40px;
+  }
+  .problema h2{
+    background-image: linear-gradient(to right, #337fad, #337fad, #A4DCFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .problema h2, p{
+    font-size: 40px;
+    text-align: left;
+    padding: 1.5rem;
+  }
+  
+  .bloco{
+    left: 200px;
+    top: 2250px;
+    position: absolute;
+  }
+  .bloco li{
+    display: inline-block;
+  }
+  
+  .bloco1{
+    text-align: center;
+    width: 260px;
+    height: 180px;
+    margin: 0.2rem;
+
+    background-color: #FBFBFB;
+    border: 1px solid #E8E8E8;
+    color: #000;
+    border-radius: 15px;
+    padding: 1rem;
+  }
+
+  .bloco h1{
+    font-size: 20px;
+    padding: 1.5rem 0;
+  }
+  
+  .bloco p{
+    font-size: 18px;
+    text-align: center;
+  }

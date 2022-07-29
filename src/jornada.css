@@ -1,0 +1,71 @@
+.jornada{
+    background-color: #fff;
+    font-size: 30px;
+    margin-top: 940px;
+}
+.jornada h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 2rem;
+
+    background-image: linear-gradient(to right, #1d628d, #4babe7, #c2e7ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.caixa1{
+    display: inline-block;
+    
+    padding: 0 10%;
+    left: 500px;
+    top: 2250px;
+}
+.caixa1 li{
+    margin: 7px 5px;
+    display: inline-block;
+    font-size: 12px;
+    padding: 10px;
+
+    color: #fff;
+    background-color: #1A7FBD;
+    border-radius: 10px;
+}
+
+.conjunto img{
+    height: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.cadastro{
+    margin-left: 35%;
+    display: inline-block;
+    margin-top: 90px;
+    padding: 1rem 2rem;
+    font-size: 15px;
+
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.cadastro a:hover{
+    transition: all 0.5s;
+    color: rgb(105,135,235, 0.7);
+}
+
+.cadastro img{
+    height: 20px;
+    padding: 0 5px;
+    position: absolute;
+}
+.jornada a{
+    color: #1A7FBD;
+}
+.vetor{
+    margin: 1% 42% 6%;
+    padding-bottom: 2rem;
+}
