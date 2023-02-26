@@ -36,7 +36,7 @@ function App() {
                       <div class="input_box">
                         <li><img class="icone" src="src/Assets_Netuno/icones/user.png"/><input class="info" type="text" name="nome" placeholder="Nome Completo*" required></input></li>
                         <li><img class="icone-mail" src="src/Assets_Netuno/icones/mail.png"/><input class="info" type="text" name="email" placeholder="E-mail*" required></input></li>
-                        <li><img class="icone" src="src/Assets_Netuno/icones/state.png"/><select class="info" name="Estado">
+                        <li><img class="icone" src="src/Assets_Netuno/icones/state.png"/><select class="infoestado" name="Estado">
                           <option value="Estado">Estado </option>
                           <option value="Estado">Acre </option>
                           <option value="Estado">Alagoas </option>
@@ -46,6 +46,7 @@ function App() {
                           <option value="Estado">Ceará </option>
                           <option value="Estado">Distrito Federal </option>
                           <option value="Estado">Espírito Santo </option>
+                          <option value="Estado">Goiás </option>
                           <option value="Estado">Maranhão </option>
                           <option value="Estado">Mato Grosso </option>
                           <option value="Estado">Mato Grosso do Sul </option>
@@ -125,7 +126,7 @@ function App() {
             <p><b>Falta de profissionais de TI no Mercado brasileiro: um problema que demanda atenção urgente.</b></p>
             <h6 class="line"><p>___________________________________</p></h6>
             <p>Estima-se que atualmente tenhamos um déficit de 408 mil postos de trabalho, com perdas se acumulando na casa dos R$167 bilhões, de acordo com a Softex, uma organização social voltada ao fomento da área de TI.</p>
-            <br />
+            <br/>
             <p><b>Um dos principais fatores dessa falta de profissionais é o êxodo de profissionais para o exterior.</b></p>
           </section>
           
@@ -145,7 +146,7 @@ function App() {
             <li>
               <section class="bloco1">
                 <h1>Experiência Real</h1>
-                <p>Entendemos que somente as experiências reais poderão trazer a bagagem que a teoria não o pode fazer.</p>
+                <p>Entendemos que somente as experiências reais poderão trazer a bagagem que a teoria não o pode fazer.<br/><br/></p>
               </section>
             </li>
           </div>
@@ -155,14 +156,14 @@ function App() {
         <h1>Sua Jornada</h1>
           <div class="caixa1">
             <div class="conjunto">
-              <li><img src="src/Assets_Netuno/icones/calendario.png" />Programas de 4 meses de duração, sendo 6 horas/dia.</li>
-              <li><img src="src/Assets_Netuno/icones/medalha.png" />Do Zero ao Junior Promissor em 4 meses.</li>
-              <li><img src="src/Assets_Netuno/icones/relogio.png" />640 horas de aplicação prática dos conceitos.</li>
+              <li><img src="src/Assets_Netuno/icones/calendario.png" />Programas de 4 meses de<br/> duração, sendo 6 horas/dia.</li>
+              <li><img src="src/Assets_Netuno/icones/medalha.png" />Do Zero ao Junior<br/> Promissor em 4 meses.</li>
+              <li><img src="src/Assets_Netuno/icones/relogio.png" />640 horas de aplicação<br/> prática dos conceitos.ㅤㅤ</li>
             </div>
             <div class="conjunto">
-              <li><img src="src/Assets_Netuno/icones/home.png" />Mentoria individual e coletiva em padrão ágil.</li>
-              <li><img src="src/Assets_Netuno/icones/group.png" />100% Home Office com plataformas de cursos online.</li>
-              <li><img src="src/Assets_Netuno/icones/target.png" />Variedade de áreas dentro da tecnologia.</li>
+              <li><img src="src/Assets_Netuno/icones/home.png" />Mentoria individual e<br/> coletiva em padrão ágil.</li>
+              <li><img src="src/Assets_Netuno/icones/group.png" />100% Home Office com<br/> plataformas de cursos online.</li>
+              <li><img src="src/Assets_Netuno/icones/target.png" />Variedade de áreas<br/> dentro da tecnologia.</li>
             </div>
           </div>
           <p class="cadastro">Quero me cadastrar para o <a href="#">processo seletivo <img src="src/Assets_Netuno/icones/enter.png"/></a></p>
@@ -176,10 +177,11 @@ function App() {
               <section class="bloco1">
                 <h1>Otimizar</h1>
                 <p>Otimizar todo processo de contratação chegando a contribuir com uma economia de 40% no processo de recrutamento.</p>
+                <br/>
               </section>
             </li>
             <li>
-              <section class="bloco1">
+              <section class="bloco2">
                 <h1>Gerar</h1>
                 <p>Gerar novas oportunidades de carreira para pessoas interessadas em ingressar na área ou migrar de outras áreas que esteja descontente.</p>
               </section>
@@ -188,6 +190,7 @@ function App() {
               <section class="bloco1">
                 <h1>Filtrar</h1>
                 <p>Criar oportunidades brilhantes para profissionais que se destacarem junto a parceiros estratégicos de negócios.</p>
+                <br/>
               </section>
             </li>
           </div>
@@ -219,7 +222,7 @@ function App() {
             </div>
             <div class="contato">
               <li><h1>Contato</h1></li>
-              <li><p>(11) numero</p></li>
+              <li><p>(11) 91234-5678</p></li>
               <li><p>contato@netuno.com.br</p></li>
             </div>
           </section>

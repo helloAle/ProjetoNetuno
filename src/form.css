@@ -93,11 +93,20 @@
   }
   
   .info{
-    margin-left: 1rem;
-    padding: 0.5rem 3rem;
+    margin-left: 0.1rem;
+    padding: 0.5rem 24%;
     background: #FBFBFB;
     border: 1px solid #CECECE;
     border-radius: 6px;
+    color: #6d6d6d;
+  }
+  .infoestado{
+    margin-left: 0.1rem;
+    padding: 0.5rem 28%;
+    background: #FBFBFB;
+    border: 1px solid #CECECE;
+    border-radius: 6px;
+    color: #6d6d6d;
   }
   .input_box li{
     margin: 10px;

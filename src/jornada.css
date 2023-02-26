@@ -22,21 +22,29 @@
     top: 2250px;
 }
 .caixa1 li{
-    margin: 7px 5px;
+    margin: 4px 5px;
     display: inline-block;
     font-size: 12px;
-    padding: 10px;
+    padding: 1.5% 3% 1.5% 1.5%;
+    text-align: left;
 
-    color: #fff;
+    color: #ffffffbb;
     background-color: #1A7FBD;
     border-radius: 10px;
+    box-shadow: 0 5px 60px rgba(0, 0, 0, 0.26);
 }
 
+.conjunto{
+    padding: 1% 16% 0;
+    display: inline-block;
+    width: 80%;
+}
 .conjunto img{
-    height: 30px;
+    float: left;
+    height: 25px;
     background-color: #fff;
     border-radius: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
     padding: 10px;
 }
 

@@ -69,6 +69,18 @@
     border-radius: 15px;
     padding: 1rem;
   }
+  .bloco2{
+    text-align: center;
+    width: 260px;
+    height: 180px;
+    margin: 0.2rem;
+
+    background-color: #FBFBFB;
+    border: 1px solid #E8E8E8;
+    color: #000;
+    border-radius: 15px;
+    padding: 1rem;
+  }
 
   .bloco h1{
     font-size: 20px;
