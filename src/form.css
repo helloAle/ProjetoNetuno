@@ -109,8 +109,89 @@
     color: #6d6d6d;
   }
   .input_box li{
+    transition: all 0.5s;
     margin: 10px;
   }
+  
+  /* input[type="checkbox"] { */
+   /* opacity: 0.3; /* Define a opacidade da caixa de seleção como 50% */
+   /* border: 4px solid #ffffff; /* Define a largura e a cor da borda da caixa de seleção */
+  /* border-radius: 4px; /* Define o raio das bordas arredondadas da caixa de seleção */
+  /* } */
+  /* //////////////////////////////////////////////////////////////// */
+  input[type="checkbox"] {
+    position: relative; /* Define a posição como relativa para que a pseudo-classe possa ser posicionada com base na caixa de seleção */
+    -webkit-appearance: none; /* Remove a aparência padrão da caixa de seleção no Safari */
+    background-color: transparent; /* Define a cor de fundo da caixa de seleção como transparente */
+    width: 10px; /* Define a largura da caixa de seleção */
+    height: 10px; /* Define a altura da caixa de seleção */
+    border-radius: 2px; /* Define o raio das bordas arredondadas da caixa de seleção */
+  }
+  
+  input[type="checkbox"]::before {
+    content: ''; /* Adiciona conteúdo vazio para a pseudo-classe */
+    position: absolute; /* Define a posição como absoluta para que a pseudo-classe possa ser posicionada corretamente */
+    top: 0; /* Posiciona a pseudo-classe no topo da caixa de seleção */
+    left: 0; /* Posiciona a pseudo-classe à esquerda da caixa de seleção */
+    width: 100%; /* Define a largura da pseudo-classe como 100% para que cubra a caixa de seleção */
+    height: 100%; /* Define a altura da pseudo-classe como 100% para que cubra a caixa de seleção */
+    border: 2px solid #fff; /* Define a largura e a cor da borda da pseudo-classe */
+    border-radius: 2px; /* Define o raio das bordas arredondadas da pseudo-classe */
+  }
+  
+  input[type="checkbox"]:checked::before {
+    content: '\2713'; /* Adiciona um símbolo de marca de seleção para a pseudo-classe quando a caixa de seleção estiver marcada */
+    color: #fff; /* Define a cor do símbolo de marca de seleção como branco */
+    font-size: 14px; /* Define o tamanho da fonte do símbolo de marca de seleção */
+    line-height: 1; /* Define a altura da linha como 1 para centralizar o símbolo verticalmente */
+    text-align: center; /* Centraliza o símbolo horizontalmente */
+    position: absolute; /* Define a posição como absoluta para que o símbolo possa ser posicionado corretamente */
+    top: 50%; /* Posiciona o símbolo no centro vertical da caixa de seleção */
+    left: 50%; /* Posiciona o símbolo no centro horizontal da caixa de seleção */
+    transform: translate(-50%, -50%); /* Centraliza o símbolo no centro da caixa de seleção */
+  }
+/* //////////////////////////////////////////////////////////////// */
+
+  /* //////////////////////////////////////////////////////////////// */
+  .opcao input[type="checkbox"] {
+    position: relative; /* Define a posição como relativa para que a pseudo-classe possa ser posicionada com base na caixa de seleção */
+    -webkit-appearance: none; /* Remove a aparência padrão da caixa de seleção no Safari */
+    background-color: transparent; /* Define a cor de fundo da caixa de seleção como transparente */
+    width: 10px; /* Define a largura da caixa de seleção */
+    height: 10px; /* Define a altura da caixa de seleção */
+    border-radius: 2px; /* Define o raio das bordas arredondadas da caixa de seleção */
+  }
+  
+  .opcao  input[type="checkbox"]::before {
+    content: ''; /* Adiciona conteúdo vazio para a pseudo-classe */
+    position: absolute; /* Define a posição como absoluta para que a pseudo-classe possa ser posicionada corretamente */
+    top: 0; /* Posiciona a pseudo-classe no topo da caixa de seleção */
+    left: 0; /* Posiciona a pseudo-classe à esquerda da caixa de seleção */
+    width: 100%; /* Define a largura da pseudo-classe como 100% para que cubra a caixa de seleção */
+    height: 100%; /* Define a altura da pseudo-classe como 100% para que cubra a caixa de seleção */
+    border: 2px solid #1A7FBD; /* Define a largura e a cor da borda da pseudo-classe */
+    border-radius: 2px; /* Define o raio das bordas arredondadas da pseudo-classe */
+  }
+  
+  .opcao input[type="checkbox"]:checked::before {
+    content: '\2713'; /* Adiciona um símbolo de marca de seleção para a pseudo-classe quando a caixa de seleção estiver marcada */
+    color: #1A7FBD; /* Define a cor do símbolo de marca de seleção como branco */
+    font-size: 14px; /* Define o tamanho da fonte do símbolo de marca de seleção */
+    line-height: 1; /* Define a altura da linha como 1 para centralizar o símbolo verticalmente */
+    text-align: center; /* Centraliza o símbolo horizontalmente */
+    position: absolute; /* Define a posição como absoluta para que o símbolo possa ser posicionado corretamente */
+    top: 50%; /* Posiciona o símbolo no centro vertical da caixa de seleção */
+    left: 50%; /* Posiciona o símbolo no centro horizontal da caixa de seleção */
+    transform: translate(-50%, -50%); /* Centraliza o símbolo no centro da caixa de seleção */
+  }
+/* //////////////////////////////////////////////////////////////// */
+
+  input[type="submit"]:hover {
+    transition: all 0.5s;
+    opacity: 0.8;
+    padding: 1rem 8rem;
+  }
+  
   .input_box img{
     position: absolute;
     margin-top: 10px; 
@@ -182,6 +263,7 @@
     color: #1A7FBD;
   }
   .enviar{
+    transition: all 0.5s;
     margin: 0 10%;
     color: #fff;
     background-color: #1A7FBD;
