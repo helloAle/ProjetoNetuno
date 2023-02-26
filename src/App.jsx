@@ -25,6 +25,7 @@ function App() {
       </header>
 
       <main>
+        <h1><img class ="arco" src="Assets_Netuno/icones/arco.svg"></img></h1>
         <div class="principal">
             <figcaption>
               <form class="formulario" action="#">
@@ -36,8 +37,8 @@ function App() {
                       <div class="input_box">
                         <li><img class="icone" src="src/Assets_Netuno/icones/user.png"/><input class="info" type="text" name="nome" placeholder="Nome Completo*" required></input></li>
                         <li><img class="icone-mail" src="src/Assets_Netuno/icones/mail.png"/><input class="info" type="text" name="email" placeholder="E-mail*" required></input></li>
-                        <li><img class="icone" src="src/Assets_Netuno/icones/state.png"/><select class="infoestado" name="Estado">
-                          <option value="Estado">Estado </option>
+                        <li><img class="icone" src="src/Assets_Netuno/icones/state.png"/><select class="infoestado" name="Estado" required>
+                          <option value="Estado">Estado* </option>
                           <option value="Estado">Acre </option>
                           <option value="Estado">Alagoas </option>
                           <option value="Estado">Amapá </option>
@@ -156,14 +157,14 @@ function App() {
         <h1>Sua Jornada</h1>
           <div class="caixa1">
             <div class="conjunto">
-              <li><img src="src/Assets_Netuno/icones/calendario.png" />Programas de 4 meses de<br/> duração, sendo 6 horas/dia.</li>
-              <li><img src="src/Assets_Netuno/icones/medalha.png" />Do Zero ao Junior<br/> Promissor em 4 meses.</li>
-              <li><img src="src/Assets_Netuno/icones/relogio.png" />640 horas de aplicação<br/> prática dos conceitos.ㅤㅤ</li>
+              <li class="caixa2"><img src="src/Assets_Netuno/icones/calendario.png" />Programas de 4 meses de<br/> duração, sendo 6 horas/dia.</li>
+              <li class="caixa2"><img src="src/Assets_Netuno/icones/medalha.png" />Do Zero ao Junior<br/> Promissor em 4 meses.</li>
+              <li class="caixa2"><img src="src/Assets_Netuno/icones/relogio.png" />640 horas de aplicação<br/> prática dos conceitos.</li>
             </div>
             <div class="conjunto">
-              <li><img src="src/Assets_Netuno/icones/home.png" />Mentoria individual e<br/> coletiva em padrão ágil.</li>
-              <li><img src="src/Assets_Netuno/icones/group.png" />100% Home Office com<br/> plataformas de cursos online.</li>
-              <li><img src="src/Assets_Netuno/icones/target.png" />Variedade de áreas<br/> dentro da tecnologia.</li>
+              <li class="caixa2"><img src="src/Assets_Netuno/icones/home.png" />Mentoria individual e<br/> coletiva em padrão ágil.</li>
+              <li class="caixa2"><img src="src/Assets_Netuno/icones/group.png" />100% Home Office com<br/> plataformas de cursos online.</li>
+              <li class="caixa2"><img src="src/Assets_Netuno/icones/target.png" />Variedade de áreas<br/> dentro da tecnologia.</li>
             </div>
           </div>
           <p class="cadastro">Quero me cadastrar para o <a href="#">processo seletivo <img src="src/Assets_Netuno/icones/enter.png"/></a></p>
